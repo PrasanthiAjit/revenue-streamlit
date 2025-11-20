@@ -1,0 +1,7 @@
+streamlit>=1.25.0
+SQLAlchemy>=1.4
+pandas>=2.0
+alembic>=1.10
+
+# NumPy: compatible with pandas 2.0+ (minimum 1.22.4). Prevent major breaking changes from NumPy 2.x
+numpy>=1.22.4,<2.0
